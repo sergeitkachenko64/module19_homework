@@ -8,10 +8,11 @@ class Device {
   }
   turnedOn(name, turnedOn, strength) {
     let power = Math.round(this.voltage * strength);
-    if (turnedOn === true) {
-      return (this.kind + name + ' на ' + this.voltage + ' Вольт ' + 'включен в розетку' + ' и потребляет ' + power + ' Ватт.');
+    let str = this.kind + name + ' на ' + this.voltage + ' Вольт ';
+    if (turnedOn) {
+      return str + 'включен в розетку и потребляет ' + power + ' Ватт.';
     } else {
-      return (this.kind + name + ' на ' + this.voltage + ' Вольт ' + 'выключен из розетки.');
+      return str + 'выключен из розетки.';
     }
   }
 };

@@ -11,8 +11,8 @@ function Device(name) {
 
 Device.prototype.turnedOn = function (name, turnedOn, strength) {
   let power = Math.round(this.voltage * strength);
-  if (turnedOn === true) {
-    console.log(this.kind + name + ' на ' + this.voltage + ' Вольт ' + 'включен в розетку' + ' и потребляет ' + power + ' Ватт.')
+  if (turnedOn) {
+    console.log(this.kind + name + ' на ' + this.voltage + ' Вольт ' + 'включен в розетку и потребляет ' + power + ' Ватт.')
   } else {
     console.log(this.kind + name + ' на ' + this.voltage + ' Вольт ' + 'выключен из розетки.' + '\n')
   }
@@ -28,8 +28,8 @@ lamp.turnedOn('лампочка', false, 0.275);
 
 function NewDevice(name, turnedOn, strength) {
   let power = Math.round(this.voltage * strength);
-  if (turnedOn === true) {
-    console.log(this.kind + name + ' на ' + this.voltage + ' Вольт ' + 'включен в розетку' + ' и потребляет ' + power + ' Ватт.')
+  if (turnedOn) {
+    console.log(this.kind + name + ' на ' + this.voltage + ' Вольт ' + 'включен в розетку и потребляет ' + power + ' Ватт.')
   } else {
     console.log(this.kind + name + ' на ' + this.voltage + ' Вольт ' + 'выключен из розетки.')
   }
