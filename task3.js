@@ -1,6 +1,6 @@
 // Функция, которая создает пустой объект без прототипа
 
-function createObj() {
+function createObj () {
   const obj = {};
   console.log(obj);
 }

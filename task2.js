@@ -8,11 +8,11 @@ const car = {
   model: 'Kuga',
   color: 'brown',
   year: 2017
-}
+};
 
 // Пишем функцию, проверяющую наличие (true) или отсутствие (false) свойства объекта car с именем, указанным в строке
 
-function compare(obj, str) {
+function compare (obj, str) {
   console.log(str in obj);
 }
 

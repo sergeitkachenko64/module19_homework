@@ -1,0 +1,27 @@
+{
+  "name": "module19_homework",
+  "version": "1.0.0",
+  "description": "Отладка",
+  "main": "task1.js",
+  "scripts": {
+    "test": "run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergeitkachenko64/module19_homework.git"
+  },
+  "author": "Sergei Tkachenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sergeitkachenko64/module19_homework/issues"
+  },
+  "homepage": "https://github.com/sergeitkachenko64/module19_homework#readme",
+  "devDependencies": {
+    "eslint": "^8.32.0",
+    "eslint-config-semistandard": "^17.0.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-promise": "^6.1.1"
+  }
+}
